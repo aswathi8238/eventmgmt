@@ -1,0 +1,79 @@
+.container-fluid {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.container-fluid a{
+    text-decoration: none;
+    color: white;
+}
+
+.list-right {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+.list-right li {
+    margin-left: 15px; /* Space between list items */
+}
+.list-group {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+.list-group a{
+    text-decoration: none;
+    color: white;
+}
+
+.list-group-item {
+    background-color: blue; /* Set background color to blue */
+    color: white; /* Text color to white for contrast */
+    padding: 10px 20px; 
+  /*  margin-bottom: 5px; /* Space between items */
+  /*  border: 1px solid white; /* White border around each item */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.list-group-item::after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    margin-left: 10px;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0; /* Remove margin from the last item */
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+ }
+
+ .c{
+    background-color: blue;
+ }
